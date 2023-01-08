@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>InsertUser</servlet-name>
+		<servlet-class>MyPack.InsertUser</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InsertUser</servlet-name>
+		<url-pattern>/InsertUser</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>InsertContributor</servlet-name>
+		<servlet-class>MyPack.InsertContributor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InsertContributor</servlet-name>
+		<url-pattern>/InsertContributor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>MyPack.Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>MyPack.Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserHome</servlet-name>
+		<servlet-class>MyPack.UserHome</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserHome</servlet-name>
+		<url-pattern>/UserHome</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ContributorHome</servlet-name>
+		<servlet-class>MyPack.ContributorHome</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ContributorHome</servlet-name>
+		<url-pattern>/ContributorHome</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Addimage</servlet-name>
+		<servlet-class>MyPack.Addimage</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Addimage</servlet-name>
+		<url-pattern>/Addimage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Addimage</servlet-name>
+		<servlet-class>MyPack.Addimage</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>User</servlet-name>
+		<servlet-class>MyPack.User</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>User</servlet-name>
+		<servlet-class>MyPack.Image</servlet-class>
+	</servlet>
+   <servlet>
+		<servlet-name>Remove</servlet-name>
+		<servlet-class>MyPack.Remove</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Remove</servlet-name>
+		<url-pattern>/Remove</url-pattern>
+	</servlet-mapping>
+</web-app>

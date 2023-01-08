@@ -1,0 +1,94 @@
+/* body{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width:; 
+    padding: 5px 0 0;
+    margin: auto;
+} */
+
+/* table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #43A047;
+    color: white;
+} */
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center;
+}
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    margin:  10px;
+    padding: 15px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover,.form button:active{
+    background: #43A047
+}
+
+.form .button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    margin:  10px;
+    padding: 15px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form .button:hover,.form button:active{
+    background: #43A047
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    width: 150px;
+  }
